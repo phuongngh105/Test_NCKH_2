@@ -9,9 +9,9 @@ project/
 ├── video.mp4   (hoặc dùng camera)
 '''
 
-MODEL_PATH = r"D:\TRaining Data\test2\yolov8s_model.pt"   # hoặc yolov26s.pt của bạn
-VIDEO_INPUT = r"D:\TRaining Data\test2\video.mp4"   # hoặc 0 nếu dùng webcam
-SUMO_CFG =  r"D:\TRaining Data\test2\sumo_config\run1.sumocfg"
+MODEL_PATH = r"D:\TRaining Data\test2\your_model_path.pt"   # hoặc yolov26s.pt của bạn COPY PATH rồi PASTE lại vào trong r"   "
+VIDEO_INPUT = r"D:\TRaining Data\test2\your_video_path.mp4"   # hoặc 0 nếu dùng webcam
+SUMO_CFG =  r"D:\TRaining Data\test2\sumo_config\your_sumo_config.sumocfg"
 
 CONF = 0.3
 
